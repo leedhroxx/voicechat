@@ -92,7 +92,7 @@ def main():
                 with st.chat_message(role):
                     st.markdown(content)
         else:
-            st.session_state['check_reset'] = False  # 처음 check_reset 상태로 돌려 놓기
+            st.session_state['check_reset'] = False
 
 if __name__ == '__main__':
     main()
