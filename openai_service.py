@@ -50,5 +50,7 @@ def tts(response: str):
         data = f.read()
         base64_encoded = base64.b64encode(data).decode() # 이진데이터 -> base64인코딩(이진) -> 문자열로 디코딩
 
-    # os.remove(filename)
+    os.remove(filename)
     return base64_encoded
+
+
